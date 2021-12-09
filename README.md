@@ -34,13 +34,13 @@ There is also a small and simple query language with the database to add, delete
 `save` Save database <br/>
 `save override` Overwrite existing database <br/>
 
-- Load data from db_list/:
-`load`
+- Load data from db_list/: <br/>
+`load` <br/>
 
 - Undo: <br/>
-`undo` Undo latest change (work in progress)
+`undo` Undo latest change (work in progress) <br/>
 
 - Duplicate Database: <br/>
-`duplicate [optional: new database name]` Duplicates database with current data
+`duplicate [optional: new database name]` Duplicates database with current data <br/>
 
-Use `exit` to exit the console.
+Use `exit` to exit the console. <br/>
