@@ -16,11 +16,31 @@ There is also a small and simple query language with the database to add, delete
 
 ### After Loging in, you can perform queries to add, delete, update, get, save and load the database
 
-- Add data:
-add [key] [value]
+- Add data: <br/>
+`add [key] [value]` <br/>
 
-- Delete data:
-delete [key]
+- Delete data: <br/>
+`delete [key] <br/>`
 
-- Get Data:
-get [key1] [key2] [key3]... Get Specific Keys
+- Get Data: <br/>
+`get [key]` Get one key <br/>
+`get [key1] [key2] [key3]...` Get Specific Keys <br/>
+`get` Get all keys <br/>
+
+- Update Data: <br/>
+`update [key] [new value]` <br/>
+
+- Save Data to db_list/: <br/>
+`save` Save database <br/>
+`save override` Overwrite existing database <br/>
+
+- Load data from db_list/:
+`load`
+
+- Undo: <br/>
+`undo` Undo latest change (work in progress)
+
+- Duplicate Database: <br/>
+`duplicate [optional: new database name]` Duplicates database with current data
+
+Use `exit` to exit the console.
