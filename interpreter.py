@@ -43,11 +43,4 @@ class Interpreter:
                     return database.save(override=False)
             elif rq_type == "load":
                 return database.load()
-            elif rq_type == "config":
-                if args[0] == "save_path":
-                    database.savePath = args[1]
-                    return {database.savePath}
-                elif args[0] == "name":
-                    database.rename(args[1])
-                    return {database.name}
                     
