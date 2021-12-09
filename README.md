@@ -58,6 +58,8 @@ To add in the future
 - Change database store path
 - Complex Queries
 - Implementation with other languages and terminal
+<br/> <br/>
+- Possibly other datbase paradigms if i feel like it
 
 
 How it works
