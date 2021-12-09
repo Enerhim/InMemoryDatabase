@@ -5,7 +5,11 @@ that the data is not lost when the system shutdowns or restarts.
 The advantage of this database is that it can deliver and update data with incredible speed since its stored in memory s
 instead of the disk which tends to be much slower.
 
-### There is also a small and simple query language with the database to add, delete, update, get, save and load data
+There is also a small and simple query language with the database to add, delete, update, get, save and load data
+
+Requirements
+--------------
+Python 3.8 or above
 
 Usage
 ---------
@@ -47,10 +51,15 @@ Usage
 
 Use `exit` to exit the console. <br/>
 
-To Add
+To add in the future
 -----------
 - Support for arrays
 - Rename database
 - Change database store path
 - Complex Queries
 - Implementation with other languages and terminal
+
+
+How it works
+--------------
+I am too tired to type this out, the code is open source.. go read it
