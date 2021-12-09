@@ -1,9 +1,9 @@
 # An In-Memory Database System made using the Python Programming Language.
-This database can store key : value pairs in memory like a Python dictonary. The database can be saved and loaded from the Hard Disk so 
-that the data is not lost when the system shutdowns or restarts
+This database can store key : value pairs in memory like a Python dictonary. The database can be saved and loaded from the Hard Disk as JSON so 
+that the data is not lost when the system shutdowns or restarts.
 
 The advantage of this database is that it can deliver and update data with incredible speed since its stored in memory s
-instead of the disk which tends to be much slower
+instead of the disk which tends to be much slower.
 
 ### There is also a small and simple query language with the database to add, delete, update, get, save and load data
 
@@ -46,3 +46,11 @@ Usage
 `duplicate [optional: new database name]` Duplicates database with current data <br/>
 
 Use `exit` to exit the console. <br/>
+
+To Add:
+
+- Support for arrays
+- Rename database
+- Change database store path
+- Complex Queries
+- Implementation with other languages and terminal
