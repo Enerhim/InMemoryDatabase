@@ -5,8 +5,10 @@ that the data is not lost when the system shutdowns or restarts
 The advantage of this database is that it can deliver and update data with incredible speed since its stored in memory s
 instead of the disk which tends to be much slower
 
-There is also a small and simple query language with the database to add, delete, update, get, save and load data
---------------
+### There is also a small and simple query language with the database to add, delete, update, get, save and load data
+
+Usage
+---------
 
 ### To create a database run:
 `python create_memory_db.py [databse name]`
