@@ -47,8 +47,8 @@ Usage
 
 Use `exit` to exit the console. <br/>
 
-To Add:
-
+To Add
+-----------
 - Support for arrays
 - Rename database
 - Change database store path
